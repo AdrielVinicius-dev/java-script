@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightblue;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"> <!--onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"-->
+        interaja
+    </div>
+
+    <script>
+
+         var container = document.getElementById('container')
+         container.addEventListener('click', clicar)
+         container.addEventListener('mouseenter', entrar)
+         container.addEventListener('mouseout', sair)
+
+        function clicar(){
+            container.innerText = 'clicou'
+            container.style.background = 'red'
+        }
+
+        function entrar(){
+            container.innerText = 'entrou'
+        }
+
+        function sair(){
+            container.innerText = 'saiu'
+            container.style.background = 'lightblue'
+        }
+
+
+    </script>
+    
+</body>
+</html>

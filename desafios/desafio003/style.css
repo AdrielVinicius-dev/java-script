@@ -30,7 +30,12 @@ section p{
     margin: 10px;
 }
 
+#res{
+    margin: 10px;
+}
+
 footer{
     text-align: center;
     color: white;
+    margin-top: 15px;
 }

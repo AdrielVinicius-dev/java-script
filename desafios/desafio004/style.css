@@ -8,7 +8,6 @@
 
 body{
     background-color: rgb(58, 58, 199);
-    color: white;
 }
 
 header{
@@ -19,13 +18,13 @@ header{
 header h1{
     font-size: 45px;
     text-transform: uppercase;
+    color: white;
 }
 
 section{
     background-color: white;
-    height: 450px;
-    width: 600px;
     border-radius: 20px;
+    width: 400px;
     margin: 15px auto 35px;
     padding: 30px;
 }
@@ -37,7 +36,7 @@ div p{
     font-weight: bold;
 }
 
-div input{
+div input {
     height: 12px;
     padding: 4px;
 
@@ -48,6 +47,10 @@ div #button{
     width: 80px;
 }
 
+#res p{
+    color: black;
+}
+
 footer{
     text-align: center;
     margin-top: 20px;
@@ -55,4 +58,5 @@ footer{
 
 footer p{
     font-size: 19px;
+    color: white;
 }
